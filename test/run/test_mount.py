@@ -65,7 +65,11 @@ def create_image(tmpdir):
         "options": {
             "label": "TEST",
             "volid": "7B7795E7",
-            "fat-size": 32
+            "fat-size": 32,
+            "geometry": {
+                "heads": 64,
+                "sectors-per-track": 32
+            }
         }
     }
 
